@@ -5,6 +5,9 @@
 
 ---
 
+## Youtube Video Link
+[Youtube Video of Task 3 - Temperature Converter](https://youtu.be/S3P9Ian9I7w)
+
 ## 📌 Task Overview
 
 This project is a **temperature converter web application** built as part of the Oasis Infobyte Web Development Internship curriculum. The core requirements were to build a tool where a user can:
@@ -18,13 +21,6 @@ This project is a **temperature converter web application** built as part of the
 All four required elements are implemented — plus several premium UX enhancements that go well beyond the minimum spec.
 
 ---
-
-## 🌐 Live Preview
-
-Open `Metuku Rishit Kumar_Task3.html` directly in any modern browser — no build step or server required.
-
----
-
 ## ✨ Features
 
 | Feature | Description |
@@ -101,22 +97,6 @@ Errors are displayed with a smooth slide-down animation and turn the input borde
 
 ---
 
-## 🎨 Design System
-
-### Color Palette
-| Token | Hex | Usage |
-|---|---|---|
-| `--primary` | `#4f46e5` | Indigo — buttons, focus rings, formula text |
-| `--secondary` | `#ec4899` | Pink — gradient pair for button & title |
-| `--background` | `#f3f4f6` | Light gray page background |
-| `--surface` | `rgba(255,255,255,0.7)` | Glass card background |
-| `--error` | `#ef4444` | Red — error states |
-| `--success` | `#10b981` | Green — toast dot, success states |
-
-### Typography
-- **Font:** `Inter` — consistent with modern UI conventions; clean and highly legible
-- **Monospace:** Used for formula display (`<code>` element) to distinguish math from prose
-
 ### Visual Effects
 - **Glassmorphism** — `backdrop-filter: blur(20px)` + semi-transparent white background
 - **Animated Blobs** — Two large blurred gradient circles in the background that float continuously via `@keyframes float`
@@ -156,14 +136,6 @@ Prepends a new entry to the `conversionHistory` array, trims it to `MAX_HISTORY`
 
 #### `showToast(message, type)`
 Dynamically creates a toast `<div>`, appends it to the toast container (which uses `slideIn` animation), then removes it after 3 seconds with a `fadeOut` animation.
-
----
-
-## 📱 Responsive Design
-
-| Breakpoint | Changes |
-|---|---|
-| `≤ 480px` | Container padding reduces; card padding reduces; controls stack vertically; swap button rotates 90° and centres |
 
 ---
 
